@@ -1,6 +1,6 @@
 {
   "name": "animatable-css-properties",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "List of animatable CSS properties.",
   "license": "MIT",
   "repository": "hemanth/animatable-css-properties",
@@ -13,7 +13,7 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "xo && ava"
+    "test": "ava"
   },
   "files": [
     "index.js"
@@ -26,7 +26,6 @@
   ],
   "dependencies": {},
   "devDependencies": {
-    "ava": "^0.11.0",
-    "xo": "^0.12.1"
+    "ava": "^8.0.1"
   }
 }
